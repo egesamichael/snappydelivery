@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Snappy Delivery</string>
+    <string name="edit">Edit</string>
+    <string name="yes">Confirm</string>
+    <string name="title_activity_dashboard">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Send</string>
+    <string name="title_notifications">History</string>
+    <string name="title_activity_home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="profile">Profile</string>
+    <string name="title_profile">Profile</string>
+    <string name="apiKey">AIzaSyCjRwEdGrBq3BrFIrihY1zHmw3awBGlY7k</string>
+    <string name="google_map_key">AIzaSyCjRwEdGrBq3BrFIrihY1zHmw3awBGlY7k</string>
+    <string name="title_activity_locations">Map</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
