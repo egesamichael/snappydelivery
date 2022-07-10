@@ -8,14 +8,14 @@
     android:padding="23dp"
     tools:context=".PhoneNumber">
 
-    <Button
-        android:id="@+id/continue_button"
-        android:layout_width="match_parent"
+    <TextView
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@color/orange"
-        android:text="Continue"
-        android:textAllCaps="false"
-        android:textColor="@color/white" />
+        android:text="Enter your Mobile Number"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -23,14 +23,6 @@
         android:layout_marginBottom="10dp"
         android:layout_marginTop="10dp"
         android:orientation="horizontal">
-
-        <EditText
-            android:id="@+id/number"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:layout_weight="1"
-            android:inputType="number" />
 
         <com.hbb20.CountryCodePicker
             android:id="@+id/countryCode"
@@ -40,6 +32,16 @@
             app:ccp_autoDetectCountry="true"
             app:ccp_showFlag="false"
             app:ccp_showNameCode="false" />
+
+        <EditText
+            android:id="@+id/number"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:inputType="number" />
+
+
     </LinearLayout>
 
     <TextView
@@ -49,11 +51,14 @@
         android:text="You will recieve a code to verify your number"
         android:textAlignment="center" />
 
-    <TextView
-        android:layout_width="wrap_content"
+    <Button
+        android:id="@+id/continue_button"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Enter your Mobile Number"
-        android:textSize="28sp"
-        android:textStyle="bold" />
+        android:background="@color/orange"
+        android:textStyle="bold"
+        android:text="Continue"
+        android:textAllCaps="false"
+        android:textColor="@color/white" />
 
 </LinearLayout>

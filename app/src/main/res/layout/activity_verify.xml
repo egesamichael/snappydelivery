@@ -7,15 +7,12 @@
     android:padding="23dp"
     tools:context=".Verify">
 
-    <Button
-        android:id="@+id/verify_button"
-        android:layout_width="match_parent"
+    <TextView
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="bottom"
-        android:background="@color/orange"
-        android:text="Verify"
-        android:textAllCaps="false"
-        android:textColor="@color/white" />
+        android:text="Enter the verification Code"
+        android:textSize="28sp"
+        android:textStyle="bold" />
 
     <EditText
         android:id="@+id/number"
@@ -49,16 +46,21 @@
 
     </LinearLayout>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Enter the verification Code"
-        android:textSize="28sp"
-        android:textStyle="bold" />
 
     <View
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/verify_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@color/orange"
+        android:textStyle="bold"
+        android:text="Verify"
+        android:textAllCaps="false"
+        android:textColor="@color/white" />
 
 </LinearLayout>
