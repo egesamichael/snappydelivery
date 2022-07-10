@@ -7,23 +7,19 @@
     android:padding="23dp"
     tools:context=".Register">
 
-
-    <Button
-        android:id="@+id/complete_button"
-        android:layout_width="match_parent"
+    <TextView
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="bottom"
-        android:background="@color/orange"
-        android:text="Complete Profile"
-        android:textAllCaps="false"
-        android:textColor="@color/white" />
+        android:text="Complete your Profile"
+        android:textSize="28sp"
+        android:textStyle="bold" />
 
-    <EditText
-        android:id="@+id/email"
-        android:layout_width="match_parent"
+
+    <TextView
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
-        android:inputType="textEmailAddress" />
+        android:layout_marginTop="20dp"
+        android:text="Your Fullname" />
 
     <EditText
         android:id="@+id/fullname"
@@ -37,22 +33,26 @@
         android:layout_marginTop="20dp"
         android:text="Email (Optional)" />
 
-    <TextView
-        android:layout_width="wrap_content"
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:text="Your Fullname" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Complete your Profile"
-        android:textSize="28sp"
-        android:textStyle="bold" />
+        android:layout_marginTop="5dp"
+        android:inputType="textEmailAddress" />
 
     <View
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/complete_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@color/orange"
+        android:text="Complete Profile"
+        android:textAllCaps="false"
+        android:textColor="@color/white" />
 
 </LinearLayout>
