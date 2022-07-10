@@ -3,7 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/snappydelivery/app/src/main/res/layout/activity_delivery_details.xml" value="0.15806159420289856" />
+        <entry key="..\:/snappydelivery/app/src/main/res/layout/activity_locations.xml" value="0.33" />
         <entry key="..\:/snappydelivery/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/snappydelivery/app/src/main/res/layout/activity_percel_details.xml" value="0.15806159420289856" />
         <entry key="..\:/snappydelivery/app/src/main/res/layout/activity_phone_number.xml" value="0.33" />
         <entry key="..\:/snappydelivery/app/src/main/res/layout/activity_register.xml" value="0.15806159420289856" />
         <entry key="..\:/snappydelivery/app/src/main/res/layout/activity_verify.xml" value="0.33" />
