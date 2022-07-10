@@ -6,6 +6,13 @@
     android:layout_height="match_parent"
     tools:context=".LocationsActivity">
 
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".LocationsActivity" />
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -20,15 +27,6 @@
             android:orientation="vertical"
             android:padding="10dp">
 
-            <Button
-                android:id="@+id/btn_continue"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:background="@drawable/rounddisabled"
-                android:enabled="false"
-                android:text="Continue"
-                android:textAllCaps="false" />
 
             <TextView
                 android:id="@+id/pickupTextView"
@@ -45,8 +43,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingTop="10dp"
-                android:text="Delivery Location"
+                android:text="Pick Up Location"
                 android:textSize="16sp" />
+
 
             <TextView
                 android:id="@+id/deliveryTextView"
@@ -63,7 +62,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingTop="10dp"
-                android:text="Pick Up Location"
+                android:text="Delivery Location"
                 android:textSize="16sp" />
 
 
@@ -73,15 +72,20 @@
                 android:background="@color/white"
                 android:paddingBottom="10dp"
                 android:paddingTop="5dp" />
+
+            <Button
+                android:id="@+id/btn_continue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rounddisabled"
+                android:enabled="false"
+                android:text="Continue"
+                android:textAllCaps="false" />
         </LinearLayout>
 
 
     </LinearLayout>
 
-    <fragment
-        android:id="@+id/map"
-        android:name="com.google.android.gms.maps.SupportMapFragment"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:context=".LocationsActivity" />
+
 </FrameLayout>
