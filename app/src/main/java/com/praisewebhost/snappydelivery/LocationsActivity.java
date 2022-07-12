@@ -89,7 +89,7 @@ public class LocationsActivity extends FragmentActivity implements OnMapReadyCal
         checkLocations();
 
         if (!Places.isInitialized()) {
-            Places.initialize(getApplicationContext(), "AIzaSyCjRwEdGrBq3BrFIrihY1zHmw3awBGlY7k");
+            Places.initialize(getApplicationContext(), "AIzaSyAJaScAiFfidPhma5Hd7dRZYorH8oRWl5w");
         }
         PlacesClient placesClient = Places.createClient(this);
 
