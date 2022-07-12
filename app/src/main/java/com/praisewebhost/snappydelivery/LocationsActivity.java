@@ -118,7 +118,7 @@ public class LocationsActivity extends FragmentActivity implements OnMapReadyCal
         // Start the autocomplete intent.
         Intent intent = new Autocomplete.IntentBuilder(AutocompleteActivityMode.FULLSCREEN, Arrays.asList(Place.Field.ID, Place.Field.NAME, Place.Field.LAT_LNG))
                 .setTypeFilter(TypeFilter.ESTABLISHMENT)
-                .setCountry("UG")
+                .setCountry("RW")
                 .build(this);
         startActivityForResult(intent, AUTOCOMPLETE_PICKUP_REQUEST_CODE);
     }
@@ -128,7 +128,7 @@ public class LocationsActivity extends FragmentActivity implements OnMapReadyCal
         // Start the autocomplete intent.
         Intent intent = new Autocomplete.IntentBuilder(AutocompleteActivityMode.FULLSCREEN, Arrays.asList(Place.Field.ID, Place.Field.NAME, Place.Field.LAT_LNG))
                 .setTypeFilter(TypeFilter.ESTABLISHMENT)
-                .setCountry("UG")
+                .setCountry("RW")
                 .build(this);
         startActivityForResult(intent, AUTOCOMPLETE_DELIVERY_REQUEST_CODE);
     }
