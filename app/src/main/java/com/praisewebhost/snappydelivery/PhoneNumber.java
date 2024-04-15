@@ -14,7 +14,7 @@ import androidx.appcompat.app.AppCompatActivity;
 public class PhoneNumber extends AppCompatActivity {
     Button getStarted;
     EditText phoneNumber;
-    com.hbb20.CountryCodePicker countryCodePicker;
+  //  com.hbb20.CountryCodePicker countryCodePicker;
     String code, phone, fullNumber;
     Context context = this;
 
@@ -22,10 +22,10 @@ public class PhoneNumber extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_phone_number);
-        countryCodePicker = findViewById(R.id.countryCode);
+      //  countryCodePicker = findViewById(R.id.countryCode);
         phoneNumber = findViewById(R.id.number);
         getStarted = findViewById(R.id.continue_button);
-        code = countryCodePicker.getSelectedCountryCodeWithPlus();
+      //  code = countryCodePicker.getSelectedCountryCodeWithPlus();
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getStarted.setOnClickListener(new View.OnClickListener() {
             @Override
